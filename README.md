@@ -20,7 +20,6 @@ A classic Snake game built using vanilla JavaScript and the HTML5 Canvas API.
 ## Controls
 
 - Arrow Keys — Move snake
-- P — Pause / Resume
 
 ---
 
