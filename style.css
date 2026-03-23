@@ -1,0 +1,84 @@
+#page{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    color:white;
+    
+}
+
+#boardGame{
+display: flex;
+flex-direction: column;
+align-items: center;
+border-style: solid;
+
+background-color: black;
+}
+
+#over{
+    color: red;
+}
+
+.cells{
+    display: flex;
+    
+    box-sizing: border-box;
+    border-style: none;
+    border-color: green                                                                 ;
+    width: 30px;
+    height: 30px;
+
+    
+    background-color: green;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+#snake{
+    background-color: rgba(0, 0, 0, 0.835);
+    border-color: black;
+    border-radius: var(--radius-lg);
+}
+
+#apple{
+    background-color: red;
+    border-color: white;
+}
+
+.score{
+    color:white;
+    margin-right: 10px;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 0.75rem;
+    border-color: white;
+    box-shadow: 0 10px 15px -3px rgba(225, 224, 222, 0.189);
+    margin-top: 2px;
+}
+#head{
+    background-color: rgb(1, 13, 3);
+}
+
+button:disabled {
+    background-color: grey;
+    color: white;
+}
+
+#scoreBox{
+    display:flex;
+    flex-direction: row;
+    
+}
