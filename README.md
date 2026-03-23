@@ -54,3 +54,4 @@ State is used to manage movement, collisions, scoring, and game status (running,
 - UI polish (animations, overlays)
 - Difficulty scaling
 - LocalStorage highscore
+- P pause feature
